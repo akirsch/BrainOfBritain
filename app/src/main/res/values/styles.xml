@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="QuestionTheme">
+        <item name="android:layout_marginLeft">@dimen/margin_8</item>
+        <item name="android:layout_marginRight">@dimen/margin_8</item>
+        <item name="android:layout_marginBottom">@dimen/margin_16</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AnswersTheme">
+        <item name="android:layout_marginLeft">@dimen/margin_16</item>
+        <item name="android:layout_marginBottom">@dimen/margin_16</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="RadioButtonTheme">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:layout_marginBottom">@dimen/margin_6</item>
+    </style>
+
+    <style name="CheckBoxTheme">
+        <item name="android:layout_marginLeft">@dimen/margin_16</item>
+        <item name="android:layout_marginRight">@dimen/margin_8</item>
+        <item name="android:layout_marginBottom">@dimen/margin_8</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="EnterNameView">
+        <item name="android:layout_margin">@dimen/margin_16</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/textSize</item>
+    </style>
+
+    <style name="TitleTheme">
+        <item name="android:textSize">@dimen/titleFontSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/margin_16</item>
+        <item name="android:fontFamily">@font/berkshire_swash</item>
+    </style>
+
+    <style name="ResultsTheme">
+        <item name="android:textSize">@dimen/titleFontSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/margin_16</item>
+        <item name="android:layout_marginBottom">@dimen/margin_16</item>
+        <item name="android:fontFamily">@font/berkshire_swash</item>
+    </style>
+
+    <style name="ButtonTheme">
+        <item name="android:background">@drawable/my_button</item>
+        <item name="android:layout_margin">@dimen/margin_16</item>
+        <item name="android:layout_marginBottom">@dimen/margin_24</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:paddingRight">@dimen/margin_8</item>
+        <item name="android:paddingLeft">@dimen/margin_8</item>
+
+    </style>
+
+
+</resources>
