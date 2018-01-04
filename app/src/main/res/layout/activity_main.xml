@@ -461,20 +461,18 @@
         <TextView
             android:id="@+id/result_view"
             style="@style/ResultsTheme"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/initial_result_message" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="match_parent">
 
             <Button
+                android:id="@+id/getScoreButton"
                 style="@style/ButtonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
                 android:onClick="displayResult"
                 android:text="@string/SubmitResultsButton" />
 
@@ -482,10 +480,9 @@
                 style="@style/ButtonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
+                android:layout_below="@id/getScoreButton"
                 android:onClick="resetQuiz"
                 android:text="@string/ResetButton" />
-
 
         </RelativeLayout>
 

@@ -9,7 +9,7 @@
     </style>
 
     <style name="QuestionTheme">
-        <item name="android:layout_marginLeft">@dimen/margin_8</item>
+        <item name="android:layout_marginLeft">@dimen/margin_16</item>
         <item name="android:layout_marginRight">@dimen/margin_8</item>
         <item name="android:layout_marginBottom">@dimen/margin_16</item>
         <item name="android:textColor">@color/textColor</item>
@@ -19,12 +19,12 @@
     </style>
 
     <style name="AnswersTheme">
-        <item name="android:layout_marginLeft">@dimen/margin_16</item>
         <item name="android:layout_marginBottom">@dimen/margin_16</item>
         <item name="android:textColor">@color/textColor</item>
     </style>
 
     <style name="RadioButtonTheme">
+        <item name="android:layout_marginLeft">@dimen/margin_24</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:fontFamily">@font/montserrat</item>
@@ -57,8 +57,7 @@
     <style name="ResultsTheme">
         <item name="android:textSize">@dimen/titleFontSize</item>
         <item name="android:gravity">center</item>
-        <item name="android:layout_marginTop">@dimen/margin_16</item>
-        <item name="android:layout_marginBottom">@dimen/margin_16</item>
+        <item name="android:layout_margin">@dimen/margin_16</item>
         <item name="android:fontFamily">@font/berkshire_swash</item>
     </style>
 
@@ -69,8 +68,9 @@
         <item name="android:textColor">@color/textColor</item>
         <item name="android:fontFamily">@font/montserrat</item>
         <item name="android:textSize">@dimen/textSize</item>
-        <item name="android:paddingRight">@dimen/margin_8</item>
-        <item name="android:paddingLeft">@dimen/margin_8</item>
+        <item name="android:padding">@dimen/margin_12</item>
+        <item name="android:layout_centerHorizontal">true</item>
+
 
     </style>
 
