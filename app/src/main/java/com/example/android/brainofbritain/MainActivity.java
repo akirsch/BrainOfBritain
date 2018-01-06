@@ -1,8 +1,11 @@
 package com.example.android.brainofbritain;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -50,16 +53,20 @@ public class MainActivity extends AppCompatActivity {
         checkbox4 = findViewById(R.id.q9_checkBox4);
         resultsView = findViewById(R.id.result_view);
         userName = findViewById(R.id.enter_name_view);
-        resultsMessage = getString(R.string.initial_result_message);
+        resultsMessage = resultsView.getText().toString();
 
+        if (resultsMessage == null || resultsMessage.isEmpty()) {
+            resultsMessage = getString(R.string.initial_result_message);
+        }
         resultsView.setText(resultsMessage);
+
     }
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
         // Save the user's current score state
         savedInstanceState.putInt(STATE_USERSCORE, score);
-        savedInstanceState.putString(STATE_RESULTS_MESSAGE, resultsMessage);
+        savedInstanceState.putString(STATE_RESULTS_MESSAGE, resultsView.getText().toString());
 
         // Always call the superclass so it can save the view hierarchy state
         super.onSaveInstanceState(savedInstanceState);

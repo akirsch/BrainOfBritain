@@ -462,7 +462,8 @@
             android:id="@+id/result_view"
             style="@style/ResultsTheme"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="@string/initial_result_message" />
 
         <RelativeLayout
             android:layout_width="match_parent"
