@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGroundColor"
+    tools:context="com.example.android.brainofbritain.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/results_screen_message"
+            style="@style/TitleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/margin_24"
+            android:layout_marginRight="@dimen/margin_24"
+            android:text="@string/results_screen_message" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/results_screen_message"
+            android:layout_margin="@dimen/margin_16">
+
+            <TableRow>
+
+                <TextView
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer1" />
+
+                <TextView
+                    android:id="@+id/correctA1_view"
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q1_A2" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer2" />
+
+                <TextView
+                    android:id="@+id/correctA2_view"
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q2_A1" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer3" />
+
+
+                <TextView
+                    android:id="@+id/correctA3_view"
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q3_A4" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer4" />
+
+                <TextView
+                    android:id="@+id/correctA4_view"
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q4_A3" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer5" />
+
+                <TextView
+                    android:id="@+id/correctA5_view"
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q5_A2" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer6" />
+
+                <TextView
+                    android:id="@+id/correctA6_view"
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q6_A3" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer7" />
+
+                <TextView
+                    android:id="@+id/correctA7_view"
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q7_A3" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer8" />
+
+                <TextView
+                    android:id="@+id/correctA8_view"
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q8_A2" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer9a" />
+
+                <TextView
+                    android:id="@+id/correctA9_viewA"
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q9_A1" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer9b" />
+
+                <TextView
+                    android:id="@+id/correctA9_viewB"
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q9_A3" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer10" />
+
+                <TextView
+                    android:id="@+id/correctA10_view"
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q10_A1" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer11" />
+
+                <TextView
+                    android:id="@+id/correctA11_view"
+                    style="@style/CorrectAnswerTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/correctWord" />
+            </TableRow>
+
+        </TableLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

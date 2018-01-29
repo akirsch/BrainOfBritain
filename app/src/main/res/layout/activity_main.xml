@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
-            android:src="@drawable/britain_clipart" />
+            android:src="@drawable/britain_clipart3" />
 
         <TextView
             style="@style/TitleTheme"
@@ -459,6 +459,22 @@
         </RadioGroup>
 
         <TextView
+            android:id="@+id/question11"
+            style="@style/QuestionTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="@string/question_11" />
+
+        <EditText
+            android:id="@+id/missing_word_view"
+            style="@style/MissingWordView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/missing_word"
+            android:inputType="textCapWords" />
+
+        <TextView
             android:id="@+id/result_view"
             style="@style/ResultsTheme"
             android:layout_width="match_parent"
@@ -478,10 +494,18 @@
                 android:text="@string/SubmitResultsButton" />
 
             <Button
+                android:id="@+id/seeCorrectAnswers"
                 style="@style/ButtonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/getScoreButton"
+                android:text="@string/seeCorrectAnswers" />
+
+            <Button
+                style="@style/ButtonTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/seeCorrectAnswers"
                 android:onClick="resetQuiz"
                 android:text="@string/ResetButton" />
 

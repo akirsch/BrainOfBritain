@@ -47,11 +47,28 @@
         <item name="android:textSize">@dimen/textSize</item>
     </style>
 
+    <style name="MissingWordView">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:layout_marginLeft">@dimen/margin_16</item>
+        <item name="android:layout_marginRight">@dimen/margin_16</item>
+    </style>
+
     <style name="TitleTheme">
         <item name="android:textSize">@dimen/titleFontSize</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_marginTop">@dimen/margin_16</item>
         <item name="android:fontFamily">@font/berkshire_swash</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="CorrectAnswerTheme">
+        <item name="android:textSize">@dimen/correctAnswerSize</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginTop">@dimen/margin_16</item>
+        <item name="android:fontFamily">@font/berkshire_swash</item>
+        <item name="android:textColor">@color/textColor</item>
     </style>
 
     <style name="ResultsTheme">
@@ -59,6 +76,7 @@
         <item name="android:gravity">center</item>
         <item name="android:layout_margin">@dimen/margin_16</item>
         <item name="android:fontFamily">@font/berkshire_swash</item>
+        <item name="android:textColor">@color/textColor</item>
     </style>
 
     <style name="ButtonTheme">

@@ -52,9 +52,33 @@
     <string name="Q10_A2">Tony Blair</string>
     <string name="Q10_A3">David Lloyd George</string>
     <string name="Q10_A4">Winston Churchill</string>
+    <string name="question_11">11. What is the missing word in the British National Anthem:
+    "Send Her ________ happy and glorious"</string>
     <string name="initial_result_message">Are you the Brain of Britain?</string>
+    <string name="missing_word">Enter the missing word</string>
+    <string name="correctWord">victorious</string>
     <string name="resultMessagePart1">, you scored</string>
-    <string name="resultMessagePart2">out of 10!</string>
+    <string name="resultMessagePart2">out of 11!</string>
     <string name="SubmitResultsButton">Submit Answers</string>
-    <string name="ResetButton">Reset Quiz</string>
+    <string name="seeCorrectAnswers">See Correct Answers</string>
+    <string name="ResetButton">Try Again</string>
+    <string name="answer1">A1: </string>
+    <string name="answer2">A2: </string>
+    <string name="answer3">A3: </string>
+    <string name="answer4">A4: </string>
+    <string name="answer5">A5: </string>
+    <string name="answer6">A6: </string>
+    <string name="answer7">A7: </string>
+    <string name="answer8">A8: </string>
+    <string name="answer9a">A9a: </string>
+    <string name="answer9b">A9b: </string>
+    <string name="answer10">A10: </string>
+    <string name="answer11">A11: </string>
+    <string name="feedbackBad"> Looks like its back to school for you!</string>
+    <string name="feedbackMedium">A reasonable effort, but you could do better!</string>
+    <string name="feedbackGood">A valiant effort, but perfection still eludes you!</string>
+    <string name="feedbackPerfect">Splendid, you truly have a brain to be envied!</string>
+    <string name="results_screen_message">And let the Truth be told....</string>
+    <string name="notAllQsAnswered">You have not answered all the questions! Back to work!</string>
+    <string name="noNameEntered">"You forgot to enter your name!</string>
 </resources>

@@ -7,4 +7,7 @@
     <dimen name="titleFontSize">34sp</dimen>
     <dimen name="textSize">18sp</dimen>
     <dimen name="margin_24">24dp</dimen>
+    <dimen name="correctAnswerSize">24sp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="toast_text_size">28sp</dimen>
 </resources>
